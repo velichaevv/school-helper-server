@@ -1,0 +1,16 @@
+{
+  "name": "homework-solver-server",
+  "version": "1.0.0",
+  "description": "Сервер, который решает задачи по фото через Claude с запасным вариантом Gemini",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
